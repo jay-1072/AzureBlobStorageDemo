@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/eace7666-1403-49a9-84e9-a94170481957/resourceGroups/Demo_JayK/providers/microsoft.insights/components/BlobStorageAPIsInsightDemo</ApplicationInsightsResourceId>
+    <UserSecretsId>8c9565e3-3849-45b1-9ab2-1ea80db96287</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.13.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>

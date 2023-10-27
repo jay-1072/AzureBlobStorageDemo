@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "Secret Type"
+    },
+    "appInsights1": {
+      "type": "Application Insight Type",
+      "connectionId": "Connection Id",
+      "dynamicId": null
+    }
+  }
+}
